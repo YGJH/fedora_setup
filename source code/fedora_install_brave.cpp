@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
     
-    char brave1[] = "sudo dnf install dnf-plugins-core";
+    char brave1[] = "sudo dnf install -y dnf-plugins-core";
 
     char brave2[] = "sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo";
 
