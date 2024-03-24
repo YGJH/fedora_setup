@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  char nvidia1[] = "sudo dnf update --refresh";
+  char nvidia1[] = "sudo dnf -y update --refresh";
   char nvidia2[] =
       "sudo dnf install -y kernel-devel kernel-headers gcc make dkms acpid "
       "libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig";
